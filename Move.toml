@@ -1,0 +1,10 @@
+[package]
+name = "spacehunter"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+spacehunter = "0x0"
+admin = "0xd405b4b6cc3b704270de1452e0c37557e372c638e19c9008ed55a56329016d64"
